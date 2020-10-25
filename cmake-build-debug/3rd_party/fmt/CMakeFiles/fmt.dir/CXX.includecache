@@ -102,13 +102,13 @@ xlocale.h
 format.h
 ../3rd_party/fmt/include/fmt/format.h
 
-E:/compile/MiniCompiler/3rd_party/fmt/src/format.cc
+E:/compile/compile2.0/3rd_party/fmt/src/format.cc
 fmt/format-inl.h
-E:/compile/MiniCompiler/3rd_party/fmt/src/fmt/format-inl.h
+E:/compile/compile2.0/3rd_party/fmt/src/fmt/format-inl.h
 
-E:/compile/MiniCompiler/3rd_party/fmt/src/posix.cc
+E:/compile/compile2.0/3rd_party/fmt/src/posix.cc
 fmt/posix.h
-E:/compile/MiniCompiler/3rd_party/fmt/src/fmt/posix.h
+E:/compile/compile2.0/3rd_party/fmt/src/fmt/posix.h
 limits.h
 -
 sys/stat.h

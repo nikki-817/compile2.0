@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/compile/MiniCompiler/tests/test_analyser.cpp" "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_analyser.cpp.obj"
-  "E:/compile/MiniCompiler/tests/test_main.cpp" "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_main.cpp.obj"
-  "E:/compile/MiniCompiler/tests/test_tokenizer.cpp" "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_tokenizer.cpp.obj"
+  "E:/compile/compile2.0/tests/test_analyser.cpp" "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_analyser.cpp.obj"
+  "E:/compile/compile2.0/tests/test_main.cpp" "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_main.cpp.obj"
+  "E:/compile/compile2.0/tests/test_tokenizer.cpp" "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_test.dir/tests/test_tokenizer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,8 +24,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/DependInfo.cmake"
-  "E:/compile/MiniCompiler/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/DependInfo.cmake"
+  "E:/compile/compile2.0/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

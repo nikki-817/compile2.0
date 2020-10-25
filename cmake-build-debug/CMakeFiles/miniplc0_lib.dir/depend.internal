@@ -5,11 +5,11 @@ CMakeFiles/miniplc0_lib.dir/analyser/analyser.cpp.obj
  ../error/error.h
  ../instruction/instruction.h
  ../tokenizer/token.h
- E:/compile/MiniCompiler/analyser/analyser.cpp
- E:/compile/MiniCompiler/analyser/analyser.h
+ E:/compile/compile2.0/analyser/analyser.cpp
+ E:/compile/compile2.0/analyser/analyser.h
 CMakeFiles/miniplc0_lib.dir/tokenizer/tokenizer.cpp.obj
  ../error/error.h
  ../tokenizer/token.h
  ../tokenizer/tokenizer.h
  ../tokenizer/utils.hpp
- E:/compile/MiniCompiler/tokenizer/tokenizer.cpp
+ E:/compile/compile2.0/tokenizer/tokenizer.cpp

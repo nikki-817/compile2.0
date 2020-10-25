@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\compile\MiniCompiler
+CMAKE_SOURCE_DIR = E:\compile\compile2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\compile\MiniCompiler\cmake-build-debug
+CMAKE_BINARY_DIR = E:\compile\compile2.0\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -156,14 +156,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\compile\MiniCompiler\cmake-build-debug\CMakeFiles E:\compile\MiniCompiler\cmake-build-debug\3rd_party\fmt\CMakeFiles\progress.marks
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\compile\MiniCompiler\cmake-build-debug\CMakeFiles 0
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\compile\compile2.0\cmake-build-debug\CMakeFiles E:\compile\compile2.0\cmake-build-debug\3rd_party\fmt\CMakeFiles\progress.marks
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\compile\compile2.0\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/clean
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/clean
 .PHONY : clean
 
 # The main clean target
@@ -173,22 +173,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/preinstall
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/preinstall
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party/fmt/CMakeFiles/fmt.dir/rule:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/CMakeFiles/fmt.dir/rule
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3rd_party/fmt/CMakeFiles/fmt.dir/rule
 .PHONY : 3rd_party/fmt/CMakeFiles/fmt.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ fmt: 3rd_party/fmt/CMakeFiles/fmt.dir/rule
 
 # fast build rule for target.
 fmt/fast:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/build
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
 src/format.obj: src/format.cc.obj
@@ -207,7 +207,7 @@ src/format.obj: src/format.cc.obj
 
 # target to build an object file
 src/format.cc.obj:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj
 .PHONY : src/format.cc.obj
 
 src/format.i: src/format.cc.i
@@ -216,7 +216,7 @@ src/format.i: src/format.cc.i
 
 # target to preprocess a source file
 src/format.cc.i:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.i
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.i
 .PHONY : src/format.cc.i
 
 src/format.s: src/format.cc.s
@@ -225,7 +225,7 @@ src/format.s: src/format.cc.s
 
 # target to generate assembly for a file
 src/format.cc.s:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.s
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.s
 .PHONY : src/format.cc.s
 
 src/posix.obj: src/posix.cc.obj
@@ -234,7 +234,7 @@ src/posix.obj: src/posix.cc.obj
 
 # target to build an object file
 src/posix.cc.obj:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.obj
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.obj
 .PHONY : src/posix.cc.obj
 
 src/posix.i: src/posix.cc.i
@@ -243,7 +243,7 @@ src/posix.i: src/posix.cc.i
 
 # target to preprocess a source file
 src/posix.cc.i:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.i
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.i
 .PHONY : src/posix.cc.i
 
 src/posix.s: src/posix.cc.s
@@ -252,7 +252,7 @@ src/posix.s: src/posix.cc.s
 
 # target to generate assembly for a file
 src/posix.cc.s:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.s
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3rd_party\fmt\CMakeFiles\fmt.dir\build.make 3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.s
 .PHONY : src/posix.cc.s
 
 # Help Target
@@ -286,6 +286,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\compile\MiniCompiler\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\compile\compile2.0\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

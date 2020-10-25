@@ -1,4 +1,4 @@
-# Install script for directory: E:/compile/MiniCompiler/3rd_party/fmt
+# Install script for directory: E:/compile/compile2.0/3rd_party/fmt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

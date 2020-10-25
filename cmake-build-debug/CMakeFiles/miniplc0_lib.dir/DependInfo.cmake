@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/compile/MiniCompiler/analyser/analyser.cpp" "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/analyser/analyser.cpp.obj"
-  "E:/compile/MiniCompiler/tokenizer/tokenizer.cpp" "E:/compile/MiniCompiler/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/tokenizer/tokenizer.cpp.obj"
+  "E:/compile/compile2.0/analyser/analyser.cpp" "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/analyser/analyser.cpp.obj"
+  "E:/compile/compile2.0/tokenizer/tokenizer.cpp" "E:/compile/compile2.0/cmake-build-debug/CMakeFiles/miniplc0_lib.dir/tokenizer/tokenizer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

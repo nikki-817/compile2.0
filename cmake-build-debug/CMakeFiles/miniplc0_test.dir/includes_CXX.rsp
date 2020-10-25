@@ -1,1 +1,1 @@
--IE:/compile/MiniCompiler/. -IE:/compile/MiniCompiler/3rd_party/catch2 -IE:/compile/MiniCompiler/3rd_party/fmt/include 
+-IE:/compile/compile2.0/. -IE:/compile/compile2.0/3rd_party/catch2 -IE:/compile/compile2.0/3rd_party/fmt/include 

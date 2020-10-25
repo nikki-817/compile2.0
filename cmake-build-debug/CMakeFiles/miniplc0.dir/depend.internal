@@ -8,7 +8,7 @@ CMakeFiles/miniplc0.dir/main.cpp.obj
  ../instruction/instruction.h
  ../tokenizer/token.h
  ../tokenizer/utils.hpp
- E:/compile/MiniCompiler/analyser/analyser.h
- E:/compile/MiniCompiler/fmts.hpp
- E:/compile/MiniCompiler/main.cpp
- E:/compile/MiniCompiler/tokenizer/tokenizer.h
+ E:/compile/compile2.0/analyser/analyser.h
+ E:/compile/compile2.0/fmts.hpp
+ E:/compile/compile2.0/main.cpp
+ E:/compile/compile2.0/tokenizer/tokenizer.h

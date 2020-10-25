@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/compile/MiniCompiler/3rd_party/fmt/src/format.cc" "E:/compile/MiniCompiler/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj"
-  "E:/compile/MiniCompiler/3rd_party/fmt/src/posix.cc" "E:/compile/MiniCompiler/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.obj"
+  "E:/compile/compile2.0/3rd_party/fmt/src/format.cc" "E:/compile/compile2.0/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj"
+  "E:/compile/compile2.0/3rd_party/fmt/src/posix.cc" "E:/compile/compile2.0/cmake-build-debug/3rd_party/fmt/CMakeFiles/fmt.dir/src/posix.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

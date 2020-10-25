@@ -1,4 +1,4 @@
-# Install script for directory: E:/compile/MiniCompiler/3rd_party/catch2
+# Install script for directory: E:/compile/compile2.0/3rd_party/catch2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

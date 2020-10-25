@@ -58,17 +58,17 @@ string
 cctype
 -
 
-E:/compile/MiniCompiler/analyser/analyser.cpp
+E:/compile/compile2.0/analyser/analyser.cpp
 analyser.h
-E:/compile/MiniCompiler/analyser/analyser.h
+E:/compile/compile2.0/analyser/analyser.h
 
-E:/compile/MiniCompiler/analyser/analyser.h
+E:/compile/compile2.0/analyser/analyser.h
 error/error.h
-E:/compile/MiniCompiler/analyser/error/error.h
+E:/compile/compile2.0/analyser/error/error.h
 instruction/instruction.h
-E:/compile/MiniCompiler/analyser/instruction/instruction.h
+E:/compile/compile2.0/analyser/instruction/instruction.h
 tokenizer/token.h
-E:/compile/MiniCompiler/analyser/tokenizer/token.h
+E:/compile/compile2.0/analyser/tokenizer/token.h
 vector
 -
 optional
@@ -82,9 +82,9 @@ cstdint
 cstddef
 -
 
-E:/compile/MiniCompiler/tokenizer/tokenizer.cpp
+E:/compile/compile2.0/tokenizer/tokenizer.cpp
 tokenizer/tokenizer.h
-E:/compile/MiniCompiler/tokenizer/tokenizer/tokenizer.h
+E:/compile/compile2.0/tokenizer/tokenizer/tokenizer.h
 iostream
 -
 sstream
